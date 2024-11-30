@@ -1,7 +1,7 @@
 # Fuzzy Match Village Names
 
 ## Purpose
-This script is designed to match village names from a survey dataset to a [GIS dataset](https://data.humdata.org/dataset/pakistan-settlement) using fuzzy matching. It utilizes the Jaro-Winkler distance metric to find the closest match between village and union council (UC) names in order to get a geo-referenced dataset at the village-level. 
+This script is designed to match village names from an administrative dataset to a [GIS dataset](https://data.humdata.org/dataset/pakistan-settlement) using fuzzy matching. It utilizes the Jaro-Winkler distance metric to find the closest match between village and union council (UC) names to get a geo-referenced dataset at the village level. This matched data underwent field verification by field-coordinators before commencing surveys for our project.
 A version of this script was published as a post on [CSAE Coders Corner - Matching](https://github.com/csae-coders-corner/Matching).
 
 *Note:* For publication, the [script](https://github.com/kaurprabhmeet/fuzzy_match/blob/main/Fuzzy%20matching.R) has been anonymised.
